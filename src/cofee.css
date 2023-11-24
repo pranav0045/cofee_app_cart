@@ -38,6 +38,7 @@ html {
     margin-right: 3rem;
 }
 
+
 .list .nav:hover{
     border-bottom: 3px solid black;
 }
@@ -85,6 +86,7 @@ html {
 
 .home{
     width: 100%;
+    min-height: 90vh;
     margin-top: 5.3rem;
 }
 
@@ -114,7 +116,7 @@ html {
 
 .top-section{
     width: 100%;
-    height: 30vh;
+    min-height: 30vh;
     padding: 0 6.2vw;
     margin-top: 3rem;
 }
@@ -214,7 +216,7 @@ html {
 
 .cofee-container{
     max-width:100%;
-    max-height: 100%;
+    min-height:100%;
     padding: 0 .6rem;
     height: 100%;
     overflow-x: auto;
@@ -466,7 +468,7 @@ html {
 
 .products{
     width: 100%;
-    /* height: 90vh; */
+    /* min-height: 90vh; */
     margin-top: 6.5rem;
     padding: 0 1rem;
 }
@@ -483,7 +485,7 @@ html {
 .food-items{
     width:100%;
     padding: 0 5.5rem;
-    height: 45vh;
+    min-height: 45vh;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -496,7 +498,7 @@ html {
 .f-item{
     box-shadow: 7px 7px 10px #dadada;
     width: 20%;
-    height: 100%;
+    height: 60%;
     border-radius:20px;
     overflow: hidden;
     }
@@ -515,14 +517,14 @@ html {
 .f-text{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     padding: 0 .5rem; 
 }
 
 .f-price{
     display: flex;
-    padding: 0 .5rem;
-    margin-top: 7.2rem;
+    padding: 1rem .5rem;
+    margin-top: 1.5rem;
     justify-content: space-between;
 
 }
@@ -547,6 +549,385 @@ html {
     font-size: 1.3rem;
 }
 
+/* responsiveness */
+
+@media  screen and (max-width:850px) {
+
+    .search{
+        display: none;
+    }
+
+    .logo{ 
+        width:20%;
+    }
+    
+    .logo h1{
+        font-size: 1.3rem;
+    }
+
+    .list .nav{
+        font-size: 1rem;
+    }
+
+    .list{
+        gap:5px;
+        justify-content: space-around;
+    }
+
+    .cart-icon{
+      width:50px;
+    }
+
+    .cart-icon p{
+        top: 12px;
+        left: 20px;
+        font-size: 1.3rem;
+    }
+
+    /* top-section */
+
+    .top-section {
+       min-height:50vh;
+       padding: 0 0;
+    }
+    
+    .top-section .items {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items:center;
+        width: 100%;
+        gap: 30px;
+        
+    }
+
+    .top-section h2{
+        text-align: center;
+    }
+
+    .nav2{
+        flex-direction: row;
+    }
+
+    .banner h2{
+      font-size: 1rem;
+    }
+
+    
+.top-section .items p{
+    display: none;
+}
+    .top-section .items .it{
+        width: 70%;
+    }
+
+
+    .del{
+        display: none;
+    }
+
+}
+
+
+
+@media screen  and (max-width:550px){
+    
+    .home{
+        width: 100%;
+    }
+
+    .slide-icons{
+        display: none;
+    }
+
+    .cofee-container{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 30px;
+        gap: 30px;
+        overflow: visible;
+        max-width: 100%;
+        min-height: 90vh;
+        padding: 0 0;
+    }
+
+    .cofee-card{
+        width: 330px;
+        margin-right: 20px;
+        height: 100%;
+    }
+
+    .footer{       
+        margin-top: 184rem;
+    }
+
+    .ban{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ban img{
+        width: 350px;
+    }
+
+
+
+    .last-section .slider h2{
+    
+        font-size: 1.6rem;
+        margin-bottom: 0;
+    }
+
+    .slide-icons svg{
+        font-size: 1rem;
+    }
+
+    .cofee-card .card-img{
+        width: 330px;
+        height: 35%;
+    }
+}
+
+
+
+@media screen and (max-width:460px){
+
+    .logo{
+        width: 26%;
+    }
+    .logo h1{
+        font-size: 1.2rem;
+    
+    }
+
+
+    .banner{
+        display: flex;
+        justify-content: center;
+        width:420px;
+        margin-left: 10px;
+    }
+    .banner h2{
+        display: none;
+    }
+
+
+    .top-section{
+        margin-left: 20px;
+    }
+
+    .ban{
+        width: 430px;
+    }
+
+    .cofee-container{
+        margin-left: 56px;
+    }
+
+    .list .nav{
+        font-size: 1rem;
+        margin-right: 12px;
+    }
+
+    .cart-icon{
+        width: 32px;
+    }
+
+    .cart-icon p{
+        left: 13px;
+        top: 5px;
+        font-size: 1rem;
+    }
+
+    .footer{
+      padding-inline:2rem;
+      gap: 20px;
+      width: 440px;
+    }
+
+    .del2{
+        display: none;
+    }
+
+
+
+   .foot h2{
+        font-size: 1.5rem;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+
+    .cart-icon p{
+        font-size: .9rem;
+        top: 6px;
+    }
+
+    .banner{
+        width: 420px;
+    }
+    
+}
+
+
+@media screen and (max-width:380px) {
+
+    .cofee-container{
+        margin-left: 80px;
+    }
+    
+}
+
+
+@media screen and (max-width:330px) {
+  
+    .top-section{
+        margin-left: 50px;
+    }
+    
+}
+
+
+
+/* responsiveness of product page */
+ 
+ @media screen and (max-width:1340px){
+
+    .products{
+        width: 100%;
+    }
+
+    .food-items{
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .f-item{
+        width: 30%;
+    }
+
+    
+}
+
+@media screen and (max-width:830px){
+
+    .f-item{
+        width: 40%;
+    }
+
+    .products h1{
+        font-size: 1.7rem;
+    }
+    
+}
+
+
+@media screen and (max-width:650px) {
+
+    .f-item{
+        width: 46%;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width:580px) {
+
+    .products h1{
+        text-align: center;
+    }
+    
+    .f-item{
+        width: 100%;
+    }
+
+  
+    
+    
+}
+
+
+@media screen and (max-width:450px) {
+
+   .products .food-section{
+        width: 100%;
+    }
+
+    .food-items{
+        justify-content: center;
+        width:100%;
+        padding: 0 0;
+        
+    }
+
+ 
+      .f-item{
+        width:98%;
+      }
+    
+
+    
+}
+
+@media screen and (max-width:400px){
+
+    .food-items{
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    .f-item{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:350px){
+
+    .food-items{
+        width: 100%;
+        margin-left: 40px;
+    }
+
+    .f-item{
+        width: 100%;
+    }
+
+  
+ .last-section .slider h2{
+    display: none;
+ }    
+    
+}
+  
+  
+
+
+/* responsiveness of cart page */
+
+@media  screen and (max-width:550px) {
+    .cart aside{
+        padding-left:1rem;
+    }
+    
+
+    .cart-item{
+        flex-direction: column;
+        height: 50vh;
+        gap: 20px;
+        align-items: center;
+        margin-left: 30px;
+        border: none;
+    }
+    
+    .cart-item .cart-img{
+        width: 100%;
+    }
+    
+}
 
 
 

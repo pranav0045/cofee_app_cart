@@ -16,7 +16,7 @@ const Footer = () =>{
             </div>
 
             
-            <div className="foot">
+            <div className="foot del2">
                 <h2>Responsibility</h2>
               <p>Ethical sourcing</p>
               <p>Environmental</p>
@@ -26,7 +26,7 @@ const Footer = () =>{
 
 
                    
-            <div className="foot">
+            <div className="foot del">
                 <h2>Ouick links</h2>
               <p>Privacy policy</p>
               <p>delivery</p>

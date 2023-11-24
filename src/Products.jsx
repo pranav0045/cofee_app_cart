@@ -5,6 +5,8 @@ import f1 from './f1.jpg';
 import f2 from './f2.jpg';
 import f3 from './f3.jpg';
 import f4 from './f4.jpg';
+import bur from './bur.jpg';
+import fri from './fri.jpg';
 import f5 from './f5.jpg';
 import foodban from './foodban.jpg';
 import c1 from './c1.webp';
@@ -136,7 +138,7 @@ const Products = () => {
             id: 9,
             name: "burger",
             para: "ranges of burgers starting with just $199",
-            imgsrc: f1,
+            imgsrc: bur,
             price: 199,
 
         },
@@ -167,7 +169,7 @@ const Products = () => {
             id: 12,
             name: "fries",
             para: "ranges of fries starting with just $59",
-            imgsrc: f4,
+            imgsrc: fri,
             price: 59,
 
         },
@@ -217,7 +219,7 @@ const Products = () => {
             <div className='last-section'>
 
                 <div className='slider'>
-                    <h2>Our Speciality</h2>
+                    <h2>our speciality</h2>
 
                     <div className='slide-icons'>
                         <GrLinkPrevious onClick={slider_prev} />

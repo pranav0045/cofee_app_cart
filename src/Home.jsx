@@ -70,7 +70,7 @@ const Home = () =>{
     { 
         id:2,
         imgsrc:c2,
-        name:"veronicca's iced tofee nut crunch latee",
+        name:"veronicca's nut crunch latee",
         para:"delight your senses with our veronicca's tofee nut crunch latee a perfect combination of our steamed milk and.. ",
         price:454.5,
     
@@ -80,7 +80,7 @@ const Home = () =>{
     { 
         id:3,
         imgsrc:c3,
-        name:"veronicca's tofee nut crunch cold brew",
+        name:"veronicca's tofee cold brew",
         para:"delight your senses with our veronicca's tofee nut crunch latee a perfect combination of our steamed milk and.. ",
         price:484.5,
     
@@ -90,7 +90,7 @@ const Home = () =>{
     { 
         id:4,
         imgsrc:c4,
-        name:"veronicca's tofee nut crunch frapuccino",
+        name:"veronicca's tofee nut frapuccino",
         para:"delight your senses with our veronicca's tofee nut crunch latee a perfect combination of our steamed milk and.. ",
         price:514.5,
     
@@ -100,7 +100,7 @@ const Home = () =>{
     { 
         id:5,
         imgsrc:c5,
-        name:"veronicca's tofee nut crunch creme frapuccino",
+        name:"veronicca's tofee creme frapuccino",
         para:"delight your senses with our veronicca's tofee nut crunch latee a perfect combination of our steamed milk and.. ",
         price:664.5,
     
@@ -110,7 +110,7 @@ const Home = () =>{
     { 
         id:6,
         imgsrc:c6,
-        name:"Betty's chestnut mont blanc latee",
+        name:"Betty's chestnut mont blanc",
         para:"delight your senses with our veronicca's tofee nut crunch latee a perfect combination of our steamed milk and.. ",
         price:400.5,
     
@@ -120,7 +120,7 @@ const Home = () =>{
     { 
         id:7,
         imgsrc:c7,
-        name:"Betty's chestnut mont blanc frapuccino",
+        name:"Betty's chestnut montoe blanc",
         para:"delight your senses with our veronicca's tofee nut crunch latee a perfect combination of our steamed milk and.. ",
         price:544.5,
     

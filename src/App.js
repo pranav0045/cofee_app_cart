@@ -1,29 +1,25 @@
-import { BrowserRouter, Routes,Route} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
-import Home from "./Home";
-import About from "./About";
+import Home from "./Home"
 import Products from "./Products";
-import Contact from "./Contact";
 import Cart from "./Cart";
-import {Toaster} from 'react-hot-toast';
+import { Toaster } from 'react-hot-toast';
 import Footer from "./Footer";
 
 function App() {
   return (
-    <BrowserRouter>
-         <Navbar/>
-         <Routes>
+    <>
+      <Navbar />
+        <Routes>
+          <Route path="/cofee_app" element={<Home/>} />
+          <Route path="/products" element={<Products/>} />
+          <Route path="/cart" element={<Cart/>} />
+        </Routes>
+      <Footer />
+      <Toaster containerStyle={{ fontFamily: "poppins", fontSize: "1.3rem" }} />
+      
 
-          <Route path="/" element={<Home/>}/>
-          {/* <Route path="/about" element={<About/>}/> */}
-          <Route path="/products" element={<Products/>}/>
-          {/* <Route path="/contact" element={<Contact/>}/> */}
-          <Route path="/cart" element={<Cart/>}/>
-
-         </Routes>
-         <Footer/>
-         <Toaster containerStyle={{fontFamily:"poppins",fontSize:"1.6rem"}}/>
-    </BrowserRouter>
+    </>
   );
 }
 
