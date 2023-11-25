@@ -11,7 +11,7 @@ function App() {
     <>
       <Navbar />
         <Routes>
-          <Route path="/cofee_app" element={<Home/>} />
+          <Route path="/cofee_app_cart" element={<Home/>} />
           <Route path="/products" element={<Products/>} />
           <Route path="/cart" element={<Cart/>} />
         </Routes>
