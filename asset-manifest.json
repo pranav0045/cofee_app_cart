@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/cofee_app_cart/static/css/main.df621b93.css",
+    "main.js": "/cofee_app_cart/static/js/main.817ebfea.js",
+    "static/media/c5.webp": "/cofee_app_cart/static/media/c5.24aae395110abd3ee0bd.webp",
+    "static/media/c4.webp": "/cofee_app_cart/static/media/c4.a3369bedc4260ccd5adb.webp",
+    "static/media/c2.webp": "/cofee_app_cart/static/media/c2.6dc628eb9a2c78991ecd.webp",
+    "static/media/c7.webp": "/cofee_app_cart/static/media/c7.3cb9716aa933e688ccda.webp",
+    "static/media/c3.webp": "/cofee_app_cart/static/media/c3.924bc5f32e42942dbb2e.webp",
+    "static/media/c1.webp": "/cofee_app_cart/static/media/c1.0862d634bec2150f1c43.webp",
+    "static/media/c6.webp": "/cofee_app_cart/static/media/c6.000f77751b325c7aeb93.webp",
+    "static/media/c8.webp": "/cofee_app_cart/static/media/c8.c5ef63b2bd4f3aafe2c3.webp",
+    "static/media/Food.jpg": "/cofee_app_cart/static/media/Food.5f242cb9b24485fe3061.jpg",
+    "static/media/Merchandise.jpg": "/cofee_app_cart/static/media/Merchandise.60d3033ba59dce7bd3a8.jpg",
+    "static/media/Bestseller.jpg": "/cofee_app_cart/static/media/Bestseller.ae6c2df564066080df0c.jpg",
+    "static/media/ban3.webp": "/cofee_app_cart/static/media/ban3.e3d9976cf48abc536718.webp",
+    "static/media/Drinks.jpg": "/cofee_app_cart/static/media/Drinks.9f02ac09594caecf45db.jpg",
+    "static/media/foodban.jpg": "/cofee_app_cart/static/media/foodban.66b1dd5df6b7467b9856.jpg",
+    "static/media/CoffeeAtHome.jpg": "/cofee_app_cart/static/media/CoffeeAtHome.27a33473fe5c28946fd5.jpg",
+    "static/media/bur.jpg": "/cofee_app_cart/static/media/bur.cb609d5c3e5ca20cbff4.jpg",
+    "static/media/f3.jpg": "/cofee_app_cart/static/media/f3.4a9edc39d884ce473489.jpg",
+    "static/media/f5.jpg": "/cofee_app_cart/static/media/f5.83f6c862d2cbd281aeed.jpg",
+    "static/media/f4.jpg": "/cofee_app_cart/static/media/f4.4065d151973388fb0c4d.jpg",
+    "index.html": "/cofee_app_cart/index.html",
+    "main.df621b93.css.map": "/cofee_app_cart/static/css/main.df621b93.css.map",
+    "main.817ebfea.js.map": "/cofee_app_cart/static/js/main.817ebfea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df621b93.css",
+    "static/js/main.817ebfea.js"
+  ]
+}
